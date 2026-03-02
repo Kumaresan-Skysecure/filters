@@ -14,3 +14,199 @@
         ]
     }
 }
+
+
+
+{
+    "assets": [
+        {
+            "total_cost": "0.00",
+            "ip_addresses": "",
+            "primary_ip": null,
+            "org_serial_number": "8NNWMB4",
+            "description": "",
+            "type": {
+                "name": "Asset",
+                "id": "1"
+            },
+            "manufacturer": "-",
+            "acquisition_date": {
+                "display_value": "Jul 4, 2025",
+                "value": "1751567400000"
+            },
+            "ci_default_fields": {
+                "udf_pickref_108": null
+            },
+            "current_cost": null,
+            "vendor": {
+                "email_id": null,
+                "contact_person": "-",
+                "name": "Dell Technologies",
+                "currency": {
+                    "symbol": "$",
+                    "code": "USD",
+                    "exchange_rate": "1.00000",
+                    "name": "US Dollar",
+                    "id": "2"
+                },
+                "id": "54903"
+            },
+            "id": "11122595",
+            "purchase_cost": null,
+            "state": {
+                "is_scan_required": true,
+                "name": "In Use",
+                "id": "2",
+                "is_ownership_mandatory": true
+            },
+            "department": {
+                "department_head": null,
+                "site": {
+                    "name": "India",
+                    "id": "43201"
+                },
+                "is_deleted": false,
+                "name": "Enterprise Information Technology",
+                "id": "1006802"
+            },
+            "barcode": "SEZFA015102",
+            "product_depreciation": null,
+            "depreciation": null,
+            "key": "8450a69c0f346257aa0e35c1b82b7756b50b5e9faede37bfc70262d58d440266bf0953e90ba007b3e978dbb255cafcb9301b8a61",
+            "operational_cost": null,
+            "loan_end": null,
+            "asset_tag": "",
+            "product": {
+                "part_no": "-",
+                "product_type": {
+                    "id": "1"
+                },
+                "name": "Dell Pro 14 pc 14250 XCTO",
+                "computer_group": {
+                    "id": "2"
+                },
+                "id": "93901",
+                "type": {
+                    "id": "1"
+                },
+                "category": {
+                    "id": "1"
+                },
+                "manufacturer": "-"
+            },
+            "expiry_date": null,
+            "used_by_asset": null,
+            "sys_description": null,
+            "warranty_expiry": null,
+            "part_no": "-",
+            "site": {
+                "name": "India",
+                "id": "43201"
+            },
+            "product_type": {
+                "internal_name": "Workstation",
+                "name": "Workstation",
+                "id": "1",
+                "type": {
+                    "id": "1"
+                },
+                "icon_name": {
+                    "content-url": "/api/v3/assets/11122595/product_type/1/images/74101",
+                    "id": "74101"
+                }
+            },
+            "name": "8NNWMB4",
+            "udf_fields": {
+                "udf_mline_33616": "",
+                "udf_pick_33617": null,
+                "udf_sline_33628": "",
+                "udf_sline_33629": "",
+                "udf_sline_33624": "",
+                "udf_pick_33634": null,
+                "udf_pick_33633": null,
+                "udf_sline_33622": "SEZPO2500435",
+                "udf_sline_33620": "",
+                "udf_sline_33621": "",
+                "udf_mline_33632": "",
+                "udf_long_33642": null,
+                "udf_long_33641": null,
+                "udf_sline_33619": "Dell Pro 14 pc 14250 XCTO",
+                "udf_pick_33627": null,
+                "udf_pick_33626": null,
+                "udf_sline_33618": "",
+                "udf_pick_33625": "Laptop",
+                "udf_sline_33615": "16 GB, Ultra 5",
+                "udf_sline_33637": "",
+                "udf_sline_33638": "johny.morris@indegene.com",
+                "udf_pick_33623": "Confidential & Restricted",
+                "udf_date_35101": null,
+                "udf_sline_33635": "",
+                "udf_sline_33636": "",
+                "udf_sline_33631": "",
+                "udf_date_33643": {
+                    "display_value": "Jul 7, 2025 12:00 AM",
+                    "value": "1751826600000"
+                },
+                "udf_sline_33630": "Saptesh Parish",
+                "udf_date_33644": null,
+                "udf_long_33639": null,
+                "udf_date_33645": null,
+                "udf_date_33646": null
+            },
+            "discovered_serial_number": null,
+            "location": "India",
+            "is_loaned": false,
+            "region": null,
+            "user": {
+                "email_id": "johny.morris@indegene.com",
+                "phone": null,
+                "name": "Johny Morris",
+                "mobile": "+91 9986068812",
+                "profile_pic": {
+                    "content-url": "/images/default-profile-pic2.svg"
+                },
+                "is_vipuser": false,
+                "id": "131810",
+                "department": {
+                    "department_head": null,
+                    "site": {
+                        "name": "India",
+                        "id": "43201"
+                    },
+                    "is_deleted": false,
+                    "name": "Enterprise Information Technology",
+                    "id": "1006802"
+                }
+            }
+        }
+    ],
+    "response_status": [
+        {
+            "status_code": 2000,
+            "status": "success"
+        }
+    ],
+    "list_info": {
+        "has_more_rows": false,
+        "start_index": 1,
+        "total_count": 1,
+        "page": 1,
+        "sort_order": "asc",
+        "search_criteria": [
+            {
+                "condition": "eq",
+                "field": "udf_fields.udf_sline_33638",
+                "logical_operator": "and",
+                "value": "johny.morris@indegene.com"
+            },
+            {
+                "condition": "eq",
+                "field": "udf_fields.udf_pick_33625",
+                "logical_operator": "and",
+                "value": "laptop"
+            }
+        ],
+        "get_total_count": "true",
+        "row_count": 1
+    }
+}
