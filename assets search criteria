@@ -1,0 +1,16 @@
+{
+    "list_info": {
+        "row_count": 20,
+        "start_index": 1,
+        "sort_order": "asc",
+        "get_total_count": true,
+        "search_criteria": [
+            {
+                "field": "udf_fields.udf_sline_33638",
+                "value": "sandip.roy@indegene.com",
+                "condition": "eq",
+                "logical_operator": "and"
+            }
+        ]
+    }
+}
