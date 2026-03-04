@@ -1,3 +1,8 @@
+ALLOWED_DOMAINS="indegene.com,trilogywriting.com,dt-consulting.com,culthealth.com,biopharmcommunications.com,tandemconnects.com,engagehealthmedia.com,warnandco.com"
+
+
+
+
 {
     "list_info": {
         "row_count": 20,
